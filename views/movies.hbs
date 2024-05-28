@@ -4,9 +4,9 @@
 
     {{#each movies}}
     <div>
-        {{this.image}}
+        <img src="{{this.image}}" alt="">
         <h3>{{this.title}}</h3>
         <p>{{this.description}}</p>
-        <a href="/movies/{{this._id}}"></a>
+        <a href="/movies/{{this._id}}">Click here!</a>
     </div>
     {{/each}}
